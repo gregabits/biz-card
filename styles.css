@@ -1,0 +1,37 @@
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.avatar:hover {
+  width: 205px;
+}
+
+.card {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #50767c;
+  color: #c5c9a4;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.border-blue {
+  border: 3px solid #519e8a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #c5c9a4;
+}
